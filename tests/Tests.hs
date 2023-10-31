@@ -6,6 +6,7 @@ import Tarefa1_2021li1g075_Spec
 import Tarefa2_2021li1g075_Spec
 import Tarefa3_2021li1g075_Spec
 import Tarefa4_2021li1g075_Spec
+import Tarefa6_2021li1g075_Spec
 
 runTestsT1 = runTestTT testsT1
 runTestsT2 = runTestTT testsT2
