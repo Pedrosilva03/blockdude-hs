@@ -1,17 +1,13 @@
-# Laboratórios de Informática I
+<h1 align="center">Blockdude</h1>
+<h2 align="center">Projeto de Laboratórios de Informática I</h2>
 
-## Repositório
+## Descrição
 
-O sistema de controlo de versões utilizado é o git. O repositório encontra-se disponível [nesta organização](https://gitlab.com/uminho-di/li1/2122). Para obter o repositório na sua máquina, garanta que tem a chave pública SSH adicionada na sua conta do GitLab com o email instituicional ([User Settings/SSH Keys](https://gitlab.com/-/profile/keys)), depois basta efetuar clone ao repositório.
-
-```bash
-$ git clone git@gitlab.com:uminho-di/li1/2122/2021li1g075.git
-$ cd 2021li1g075 
-```
+Implementação do jogo Blockdude em Haskell, recorrendo à biblioteca Gloss para a interface gráfica.
 
 ## Testes
 
-O projecto contém testes unitários escritos usando a biblioteca [HUnit](https://hackage.haskell.org/package/HUnit). Os testes podem ser executados da seguinte forma.
+O projeto contém testes unitários escritos usando a biblioteca [HUnit](https://hackage.haskell.org/package/HUnit). Os testes podem ser executados da seguinte forma:
 
 ```bash
 $ ghci -i="src" -i="tests" tests/Tests.hs
@@ -22,7 +18,8 @@ $ ghci -i="src" -i="tests" tests/Tests.hs
 >>> runAllTests -- Correr todos os testes
 ```
 
-## Grupo 75
+Os comandos devem ser executados na pasta raiz do repositório.
 
-- **A100656** Gustavo Manuel Marinho Barros;
-- **A100745** Pedro Emanuel Organista Silva;
+## Conclusão
+
+Trabalho realizado por Pedro Silva e Gustavo Barros.
