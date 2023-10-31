@@ -5,6 +5,16 @@
 
 Implementação do jogo Blockdude em Haskell, recorrendo à biblioteca Gloss para a interface gráfica.
 
+## Execução
+
+Para executar o jogo, é necessário introduzir os seguintes comandos dentro da pasta do repositório:
+
+````bash
+cd src/
+./Tarefa5_2021li1g075
+````
+Será apresentado o menu do jogo.
+
 ## Testes
 
 O projeto contém testes unitários escritos usando a biblioteca [HUnit](https://hackage.haskell.org/package/HUnit). Os testes podem ser executados da seguinte forma:
