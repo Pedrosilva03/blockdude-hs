@@ -148,4 +148,4 @@ verificaBlocoEmBaixo ((p,(x,y)):xs) = if elem (x,y-1) (juntarblocos xs) then Tru
 
 maximox l = maximum (juntarx (tail l))
 maximoy l = maximum (juntary (tail l))
-areamapa ((p,(x,y)):xs) = maximoy ((p,(x,y)):xs) * maximox ((p,(x,y)):xs)
+areamapa ((p,(x,y)):xs) = (maximoy ((p,(x,y)):xs) + 1) * (maximox ((p,(x,y)):xs) + 1)
